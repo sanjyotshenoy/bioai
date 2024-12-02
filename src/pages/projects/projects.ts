@@ -12,54 +12,23 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'Devaradise.com',
-    description: 'A blog that sharing web development resources and tutorials',
-    demoLink: 'https://devaradise.com',
-    tags: ['Blog']
+    name: 'Deciphering the Interregional and Interhemisphere Proteome of the Human Brain in the Context of the Human Proteome Project',
+    description: 'Journal of Proteome Research 2021 20 (12), 5280-5293',
+    demoLink: 'https://10.1021/acs.jproteome.1c00511',
+    tags: ['Neuroscience', 'Bioinformatics Tools', 'Omics']
   },
   {
-    name: 'Sellercraft App',
-    description: 'An Ecommerce omnichannel platform in Southeast Asia',
-    demoLink: 'https://sellercraft.co',
+    name: 'Organ-Based Proteome and Post-Translational Modification Profiling of a Widely Cultivated Tropical Water Fish, Labeo rohita',
+    description: "Journal of Proteome Research 2022 21 (2), 420-437",
+    demoLink: 'https://10.1021/acs.jproteome.1c00759',
     demoLinkRel: 'nofollow noopener noreferrer',
-    tags: ['ECommerce', 'Saas']
+    tags: ['Bioinformatics Tools', 'Omics']
   },
   {
-    name: 'Gaji.id App',
-    description: 'Payroll and HR Management Information System',
-    demoLink: 'https://sellercraft.co',
+    name: 'Deep Phosphoproteome Landscape of Interhemispheric Functionality of Neuroanatomical Regions of the Human Brain',
+    description: 'Journal of Proteome Research 2023 22 (4), 1043-1055',
+    demoLink: 'https://10.1021/acs.jproteome.2c00244',
     demoLinkRel: 'nofollow noopener noreferrer',
-    tags: ['HRIS', 'Saas']
+    tags: ['Neuroscience', 'Bioinformatics Tools', 'Omics']
   },
-  {
-    ...(await getRepositoryDetails('devaradise/paradise-ui')),
-    name: 'Paradise UI',
-    demoLink: 'https://paradise-ui.com',
-    postLink: 'https://devaradise.com/how-i-build-paradise-ui-react-component-library/',
-    tags: ['React', 'UI Library']
-  },
-  {
-    ...(await getRepositoryDetails('syakirurahman/react-lab')),
-    name: 'React Lab',
-    demoLink: 'https://devaradise.com/lab/react/',
-    tags: ['React']
-  },
-  {
-    ...(await getRepositoryDetails('syakirurahman/pokemon-catcher')),
-    name: 'Pokemon Catcher',
-    demoLink: 'https://pokemon-catcher-18636.web.app/',
-    tags: ['Hobby']
-  },
-  {
-    ...(await getRepositoryDetails('syakirurahman/movie-nominations')),
-    name: 'Movie Nominations',
-    demoLink: 'https://movie-nominations-c21c3.web.app/',
-    tags: ['Hobby']
-  },
-  {
-    ...(await getRepositoryDetails('syakirurahman/organization-tree')),
-    name: 'Organization tree',
-    demoLink: 'https://organization-tree-2a446.web.app/',
-    tags: ['Hobby']
-  }
 ]
