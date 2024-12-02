@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Ava from '@src/assets/img/ava.jpg';
+import BioPhoto from '@src/assets/img/sanjyot.jpg';
 import Prose from '../components/Prose.astro';
 
 ---
@@ -15,15 +15,24 @@ import Prose from '../components/Prose.astro';
       <article>
         <div class='w-full md:flex md:items-center gap-16 mb-10'>
           <div class="text-pretty leading-9">
-            <h1 class="text-4xl font-bold mb-4">Hi There 👋, Syakir Here! </h1>
+            <h1 class="text-4xl font-bold mb-4">Hi There 👋, I am Sanjyot! </h1>
             <Prose>
               <div class="text-lg">
-                <p>I am a Front-end Engineer from Indonesia. I love sharing what i know on <a href="https://devaradise.com" target="_blank">devaradise.com</a>, and sometime i also share freebies like this. I'm also active on <a href="https://dev.to/syakirurahman" target="_blank">dev.to</a> and <a href="https://x.com/syakirurahman" target="_blank">twitter</a>.</p>
-                <p>I made Devolio to help you easily set up your own blog and portfolio website. It's a static site built with Astro and Tailwind CSS, and you can deploy it on platforms like <a href="https://app.netlify.com/start/deploy?repository=https://github.com/devaradise/devolio" target="_blank" rel="nofollow noopener">Netlify</a>, <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevaradise%2Fdevolio" target="_blank" rel="nofollow noopener">Vercel</a>, or <a href="https://pages.cloudflare.com/" target="_blank" rel="nofollow noopener">Cloudflare Pages</a>.</p>  
+                <p>
+                  I am a Computational Biology Ph.D. student at the <a href="https://www.compbio.cmu.edu/index.html" target="_blank">Joint CMU-Pitt Computational Biology Ph.D. Program</a>.
+                  Welcome to <a href="https://bioai.fyi" target="_blank">BioAI.fyi</a>! This is my personal webpage as well as my blog.
+                  Through my blog, I would like to touch upon interesting developments in the applications of mathematical/statical modeling, ML/AI to Biology. 
+                  I'm also active on and <a href="https://bsky.app/profile/sanjyot.bsky.social" target="_blank">BlueSky Social</a>.
+                </p>
+
+                <h3>Academic Journey</h3>
+
+
+                 
               </div>
             </Prose>
           </div>
-          <Image src={Ava} alt="Muhammad Syakirurohman" width={300}  class="rounded-3xl rotate-3 mx-4 md:mx-0"/>
+          <Image src={BioPhoto} alt="Sanjyot Shenoy" width={300}  class="rounded-3xl rotate-3 mx-4 md:mx-0"/>
         </div>     
         <div>
           <p>

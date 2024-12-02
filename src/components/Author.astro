@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import Ava from '@src/assets/img/ava.jpg';
+import BioPhoto from '@src/assets/img/sanjyot.jpg';
 
 type PicSize = 'sm' | 'md' | 'lg';
 interface Props {
@@ -11,7 +11,7 @@ const { picSize } = Astro.props;
 
 <div class='flex gap-4 items-center leading-tight not-prose'>
 	<a
-		href='https://github.com/syakirurahman'
+		href='https://github.com/sanjyotshenoy'
 		target='_blank'
 		rel='noopener noreferrer'
 		class:list={[
@@ -21,19 +21,19 @@ const { picSize } = Astro.props;
 			{ 'w-[90px] h-[90px]': picSize === 'lg' }
 		]}
 	>
-		<Image src={Ava} alt='Muhammad Syakirurohman' />
+		<Image src={BioPhoto} alt='Sanjyot Shenoy' />
 	</a>
 	<div>
 		<div>
 			<a
-				href='https://github.com/syakirurahman'
+				href='https://github.com/sanjyotshenoy'
 				class='block font-bold text-inherit hover:text-[var(--link-color)]'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
-				Muhammad Syakirurohman
+				Sanjyot Shenoy
 			</a>
 		</div>
-		<small class='avatar__subtitle'>Frontend Engineer</small>
+		<small class='avatar__subtitle'>Computational Biologist</small>
 	</div>
 </div>
